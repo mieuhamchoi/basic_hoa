@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typescript</title>
+</head>
+<style>
+    body {
+       width: 70%;
+       align-items: center;
+       margin: auto ;
+       height: 100px;
+       background-color: hsl(0, 0%, 93%);
+    }
+    h4{
+        color:white;
+        background-color: hsl(44, 89%, 51%) !important;
+        padding: 15px;
+    }
+    .title{
+        align-items: center;
+    }
+    .note-body{
+        display: flex;
+        justify-content:space-between;
+      
+    }
+    .item_note{
+        background-color: white;
+        width: 200px;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+    #note-form{
+       width: 200px;
+       padding: 2px;
+        border-radius: 6px;
+        background-color: white;
+        margin-left: 400px !important;
+    }
+    .p{
+        margin: 10px 10px;
+    }
+    .delete{
+        color:red;
+        margin-left: 180px !important;
+        border-radius: 50%;
+        align-items: center;
+        background-color: hsl(44, 89%, 51%) !important;
+        border: none;
+
+    }
+    #create-button{
+        border: none;
+        color: blue;
+        border-radius: 50%;
+        background-color: hsl(44, 89%, 51%) !important;
+
+    }
+    #note_value{
+        border: none;
+        margin-bottom: 20px;
+        
+        
+    }
+    
+  
+</style>
+<body>
+    <h4>NOTE APP</h4>
+    <div >
+        <div class="container">
+            <div id="note-form">
+                <h3>Title:</h3>
+              <input type="text" id="note_value" placeholder="Enter your note...">
+              <button type="button" id="create-button" onclick="addNewNote()">+</button>
+            </div>
+            <div class="note-body">
+
+            </div>
+            
+          </div>
+
+    </div>
+    <!-- <script src="./main.js"></script> -->
+    <script src="./sub.js"></script>
+</body>
+</html>
